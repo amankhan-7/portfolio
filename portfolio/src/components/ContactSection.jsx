@@ -11,7 +11,7 @@ import {
 import { cn } from "../lib/utils";
 import { useToast } from "../hooks/use-toast";
 import { useState } from "react";
-import emailjs from 'emailjs-com';
+import emailjs from '@emailjs/browser';
 
 
 export const ContactSection = () => {

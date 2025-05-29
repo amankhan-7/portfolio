@@ -54,12 +54,15 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4 text-white text-left">Let’s Connect</h3>
             <p className="text-gray-300 text-sm mb-4 text-left">Open to collaboration, freelance gigs, or full-time roles. Drop a message anytime!</p>
-            <Link 
-              to="/contact"
-              className="block w-26 bg-primary hover:bg-white hover:text-black text-white py-2 px-4 rounded-md text-sm transition text-left mr-80"
+            <button
+              onClick={() => {
+                document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
+              }}
+              className="block w-26 bg-primary hover:bg-white hover:text-black text-white py-2 px-4 rounded-md text-sm transition text-left"
             >
               Contact Me
-            </Link>
+            </button>
+
           </div>
         </div>
 

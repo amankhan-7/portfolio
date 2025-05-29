@@ -58,7 +58,7 @@ export function Footer() {
               onClick={() => {
                 document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
               }}
-              className="block w-26 bg-primary hover:bg-white hover:text-black text-white py-2 px-4 rounded-md text-sm transition text-left"
+              className="block w-27 bg-primary hover:bg-white hover:text-black text-white py-2 px-4 rounded-md text-sm transition text-left"
             >
               Contact Me
             </button>
